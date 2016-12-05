@@ -1,0 +1,29 @@
+{
+  "name": "users-mongo",
+  "version": "1.0.0",
+  "description": "A MongoDB user managing app.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "mongoose": "^4.7.1",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjlaa/users-mongo.git"
+  },
+  "author": "Benjamin Arias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bjlaa/users-mongo/issues"
+  },
+  "homepage": "https://github.com/bjlaa/users-mongo#readme"
+}
