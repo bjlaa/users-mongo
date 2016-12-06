@@ -14,7 +14,7 @@
     "mocha": "^3.2.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "nodemon --exec 'mocha -R min'"
   },
   "repository": {
     "type": "git",
